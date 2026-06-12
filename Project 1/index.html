@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik Bookmarks</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Segoe UI',sans-serif;
+        }
+
+        body{
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
+        }
+
+        .container{
+            width:450px;
+            padding:35px;
+            background:rgba(255,255,255,0.1);
+            backdrop-filter:blur(12px);
+            border-radius:20px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.4);
+        }
+
+        h1{
+            text-align:center;
+            color:white;
+            margin-bottom:30px;
+            font-size:2rem;
+        }
+
+        .link-box{
+            margin:15px 0;
+        }
+
+        .link-box a{
+            display:flex;
+            align-items:center;
+            gap:15px;
+            text-decoration:none;
+            background:white;
+            padding:15px 20px;
+            border-radius:12px;
+            color:#222;
+            font-size:18px;
+            font-weight:600;
+            transition:0.3s;
+        }
+
+        .link-box a:hover{
+            transform:translateY(-4px);
+            box-shadow:0 8px 20px rgba(0,0,0,0.25);
+        }
+
+        .logo{
+            width:35px;
+            height:35px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🚀 My Useful Websites</h1>
+
+        <div class="link-box">
+            <a href="https://google.com" target="_blank">
+                <img class="logo"
+                src="https://1000logos.net/wp-content/uploads/2016/11/New-Google-Logo.jpg"
+                alt="Google">
+                Google
+            </a>
+        </div>
+
+        <div class="link-box">
+            <a href="https://youtube.com" target="_blank">
+                <img class="logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8oCPY8D-YAT1MsqRcvlNB9-Nn5EggtuibqQ&s"
+                alt="YouTube">
+                YouTube
+            </a>
+        </div>
+
+        <div class="link-box">
+            <a href="https://codewithharry.com" target="_blank">
+                <img class="logo"
+                src="https://media.licdn.com/dms/image/v2/D560BAQFDMa4ihWqOUw/company-logo_200_200/B56Z2gbOxDKIAI-/0/1776512987322/cwhofficial_logo?e=2147483647&v=beta&t=-Nj7WV80D3Q7TZSWY_NMRC12vzqyG2pJKPgnFClypRQ"
+                alt="CodeWithHarry">
+                CodeWithHarry
+            </a>
+        </div>
+
+        <div class="link-box">
+            <a href="https://github.com" target="_blank">
+                <img class="logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                alt="GitHub">
+                GitHub
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
